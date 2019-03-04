@@ -55,3 +55,86 @@ h1{
     width: 20%;
     height: 60px;
 }
+#botondelpop1{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #5497B5;
+    height: 25px;	
+}
+#botondelpop2{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5497B5;
+    height: 25px;   
+}
+#botondelpop3{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5497B5;
+    height: 25px;   
+}
+#nombredelacasilla{
+    font-size: 18px;
+}
+#Asiento{
+    font-size: 30px;    
+}
+
+#t1{
+    cursor: pointer;
+    position: absolute;
+	left: 40px;
+	text-align: center;
+}
+body{
+background: url(fondo1.jpg) no-repeat 50% 50%;
+    font-family: 'Cabin', sans-serif;
+}
+.imga{
+    position: absolute;
+    margin-left: 200px;
+}
+.butto{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 310px;
+}
+h1{
+    font-size: 35px;
+}
+#t2{
+    cursor: pointer;
+    position: absolute;
+	left: 400px;
+	text-align: center;
+    margin-top: 220px;
+} 
+.popup{
+    
+    position: absolute;
+    top: 150px;
+    left:450px;
+    height: 300px;
+    width: 400PX;
+border-bottom: 1px solid #5497B5;
+    background-color: white;
+}
+
+.numero{
+   border-bottom: 1px solid #5497B5;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    
+}
+.datodelpop{
+        text-align: center;
+    
+}
+#bb{
+    width: 65px;
+    height: 30px;
+    background:#5497B5;
+    color: aliceblue;
+    border-radius: 5px;
+}
