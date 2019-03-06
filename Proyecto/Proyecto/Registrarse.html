@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Registrarse </title>
+        <script src="jquery/jquery-3.2.1.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+	<body>
+	<div class="contenedor">
+		<br>
+		<div class="contenido">
+            <h1>Registro</h1>
+			<br>
+			<table class="t1">
+			<tr>
+				<td><label>Nombre:</label><br><input class="Nombre" id="Nombre" type="string" ></td> 
+			</tr>
+			<tr>
+				<td><label>E-mail:</label><br><input class="email" id="email" type="string" ></td>
+			</tr>
+                <tr>
+				<td><label>Clave:</label><br><input class="clave" id="clave" type="password"></td>
+			</tr>
+                <tr class="im">
+                <td><label>Foto:</label><br><input class="imgper" id="imgper" type="file" ></td>
+                </tr>
+                <tr class="butto">
+                <td><button onclick="botonguardar()">Ingresar</button></td>
+                </tr>
+		</table>
+	</div>
+        </div>
+	</body>
+	<script type="text/javascript" src="admFront-End.js">
+		</script>
+</html>
